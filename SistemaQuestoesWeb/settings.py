@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'apps.instituicao',
     'apps.turma',
     'apps.home',
+    'apps.questao',
 ]
 
 
