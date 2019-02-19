@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block main%}
+<h1>Cadastrar Questão</h1>
+ {% csrf_token %}
+    <form action="">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <div class="group">
+                            <input type="text" name="enunciado_questao" id="id_enunciado_questao" required>
+                            <label for="id_enunciado_questao">Enunciado</label>
+                            <span class="highlight"></span>
+							<span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <div class="group">
+                            <input type="text" name="nivel" id="id_nivel" required>
+                            <label for="id_nivel">Nivel</label>
+                            <span class="highlight"></span>
+							<span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success">Cadastrar</button>
+    </form>
+
+{% endblock %}
