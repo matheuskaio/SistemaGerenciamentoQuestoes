@@ -2,6 +2,8 @@ from django.contrib.auth.models import User
 from django.db import models
 
 # Create your models here.
+from django.urls import reverse
+
 
 class Pessoa(models.Model):
 
@@ -20,3 +22,7 @@ class Aluno(Pessoa):
 
     def __str__(self):
         return "Aluno: " + self.nome
+
+
+    def get_absolute_url(self):
+        return reverse('page-home')
