@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'projeto_sistema_questao_web',
         'USER': 'user_projeto_sistema_questao_web',
-        'PASSWORD': '12345',
+        'PASSWORD': '1234',
         'HOST': 'localhost',
         'PORT': '',
     }
