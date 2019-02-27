@@ -1,10 +1,10 @@
 header.header-scrolled {
-    background: #fff;
+    background: #02A676;
     padding: 20px 0;
     height: 72px;
     transition: all 0.5s;
 }
-#header {
+#cabecalho {
     padding: 30px 0;
     height: 92px;
     position: fixed;
@@ -13,10 +13,10 @@ header.header-scrolled {
     right: 0;
     transition: all 0.5s;
     z-index: 997;
-    background-color: #fff;
+    background-color: #02A676;
     box-shadow: 5px 0px 15px #c3c3c3;
 }
-#header #logo h1 {
+#cabecalho #logo h1 {
     font-size: 34px;
     margin: 0;
     padding: 0;
@@ -25,10 +25,10 @@ header.header-scrolled {
     font-weight: 700;
     letter-spacing: 3px;
 }
-#header #logo h1 a, #header #logo h1 a:hover {
-    color: #000;
+#cabecalho #logo h1 a, #cabecalho #logo h1 a:hover {
+    color: #fff;
     padding-left: 10px;
-    border-left: 4px solid grey;
+    border-left: 4px solid black;
 }
 #nav-menu-container {
     float: right;
@@ -207,5 +207,4 @@ body.mobile-nav-active #mobile-nav {
 
 #mobile-nav-toggle {
     display: inline;
-}
 }
